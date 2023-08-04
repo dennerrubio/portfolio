@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="pt-br">
+<html lang="pt-br" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=h1, initial-scale=1.0" />
@@ -8,20 +8,122 @@
   </head>
   <body class="font-notosans text-stone-900">
     <!--HEADER-->
-    <header class="h-96 bg-[url('../assets/BG-FUNDO.png')] bg-fixed"></header>
+    <header class="bg-[url('../assets/BG-FUNDO.png')] bg-fixed">
+      <nav class="flex justify-center gap-2 pt-2 md:justify-end md:pr-4">
+        <a
+          href="#contato"
+          class="text-stone-200 text-sm bg-stone-900/75 hover:bg-stone-900 px-2 py-1 rounded-full"
+          >CONTATO</a
+        >
+        <a
+          href="#"
+          class="text-stone-200 text-sm bg-stone-900/75 hover:bg-stone-900 px-2 py-1 rounded-full"
+          >EXPERIÊNCIA</a
+        >
+        <a
+          href="#"
+          class="text-stone-200 text-sm bg-stone-900/75 hover:bg-stone-900 px-2 py-1 rounded-full"
+          >PORTFÓLIO</a
+        >
+      </nav>
+      <div class="flex justify-center">
+        <img
+          src="../assets/LOGO.png"
+          alt="logo"
+          class="my-10 sm:my-12 md:my-16 h-40 sm:h-48 md:h-60" />
+      </div>
+    </header>
     <!--SOBRE-->
-    <section class="flex justify-center px-2 py-5 bg-white">
-      <article class="container"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, ab ipsum, impedit totam, sequi deserunt asperiores qui rerum amet eum quidem dicta facere consequatur vitae dolorem illum velit natus suscipit porro id officiis incidunt? Illo modi quos enim quis vel, hic velit magnam eum, dignissimos ratione optio doloremque? Veritatis, illum!</p></article>
+    <section class="flex justify-center px-3 py-5 bg-stone-200">
+      <article class="container">
+        <h1 class="text-scooter-500 font-bold text-xl" id="contato">SOBRE</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, ab
+          ipsum, impedit totam, sequi deserunt asperiores qui rerum amet eum
+          quidem dicta facere consequatur vitae dolorem illum velit natus
+          suscipit porro id officiis incidunt? Illo modi quos enim quis vel, hic
+          velit magnam eum, dignissimos ratione optio doloremque? Veritatis,
+          illum!
+        </p>
+        <h1 class="text-scooter-500 font-bold text-xl mt-5">CONTATO</h1>
+        <div
+          class="border border-scooter-400 p-5 mb-3 bg-scooter-50 rounded-lg font-light">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium
+            quam, modi facere quae placeat natus quibusdam dolorum assumenda
+            recusandae tenetur fugit odio at similique adipisci alias iste
+            numquam dignissimos animi!
+          </p>
+          <!--LINKS-->
+          <div class="flex flex-col sm:flex-row justify-center mt-5 gap-5 md:gap-9">
+            <a
+              href="#"
+              class="bg-scooter-500 font-semibold text-white text-xl text-center px-6 py-1 rounded-xl hover:bg-scooter-600 transition-all"
+              ><svg
+                class="h-6 w-6 text-white inline mr-1"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M5.121 17.804A13.937 13.937 0 0112 16c2.5 0 4.847.655 6.879 1.804M15 10a3 3 0 11-6 0 3 3 0 016 0zm6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg
+              >Github</a
+            >
+            <a
+              href="#"
+              class="bg-scooter-500 font-semibold text-white text-xl text-center px-6 py-1 rounded-xl hover:bg-scooter-600 transition-all"
+              ><svg
+                class="h-6 w-6 text-white inline mr-1"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round">
+                <path
+                  d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                <rect x="2" y="9" width="4" height="12" />
+                <circle cx="4" cy="4" r="2" /></svg
+              >Linkedin</a
+            >
+            <a
+              href="#"
+              class="bg-[#FE3535] font-semibold text-white text-xl text-center px-6 py-1 rounded-xl hover:bg-[#EC1818] transition-all"
+              ><svg
+                class="h-6 w-6 text-white inline mr-1"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" />
+                <path
+                  d="M16 6h3a1 1 0 0 1 1 1v11a2 2 0 0 1 -4 0v-13a1 1 0 0 0 -1 -1h-10a1 1 0 0 0 -1 1v12a3 3 0 0 0 3 3h11" />
+                <line x1="8" y1="8" x2="12" y2="8" />
+                <line x1="8" y1="12" x2="12" y2="12" />
+                <line x1="8" y1="16" x2="12" y2="16" /></svg
+              >Currículo</a
+            >
+          </div>
+        </div>
+      </article>
     </section>
     <!--ART1-->
     <section class="h-32 bg-stone-900"></section>
     <!--TECH-->
-    <section class="h-32 bg-white"></section>
+    <section class="h-32 bg-stone-200"></section>
     <!--ART2-->
     <section class="h-32 bg-stone-900"></section>
     <!--PORTFOLIO-->
-    <section class="h-32 bg-white"></section>
+    <section class="h-32 bg-stone-200"></section>
     <!--FOOTER-->
-    <footer class="h-32 bg-stone-900"></footer>
+    <footer class="bg-stone-900 flex justify-center py-3">
+      <p class="text-stone-200 text-sm">Desenvolvido por Denner Rubio, 2023.</p>
+    </footer>
   </body>
 </html>
