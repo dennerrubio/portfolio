@@ -8,7 +8,7 @@
   </head>
   <body class="font-notosans text-stone-900">
     <!--HEADER-->
-    <header class="bg-[url('../assets/BG-FUNDO.png')] bg-fixed">
+    <header class="bg-[url('../assets/header/BG-FUNDO.png')] bg-fixed">
       <nav class="flex justify-center gap-2 pt-2 sm:justify-end sm:pr-4">
         <a
           href="#contato"
@@ -28,8 +28,8 @@
       </nav>
       <div class="flex justify-center">
         <img
-          src="../assets/LOGO.png"
-          alt="logo"
+          src="../assets/header/LOGO.png"
+          alt="Oi, eu me chamo Denner Rubio | Front-end Developer"
           class="animate-flutuar my-16 sm:my-24 h-40 sm:h-60 transition-all" />
       </div>
     </header>
@@ -40,23 +40,20 @@
       <article class="container">
         <h1 class="text-scooter-500 font-bold text-2xl sm:text-3xl">SOBRE</h1>
         <p class="text-lg sm:text-xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, ab
-          ipsum, impedit totam, sequi deserunt asperiores qui rerum amet eum
-          quidem dicta facere consequatur vitae dolorem illum velit natus
-          suscipit porro id officiis incidunt? Illo modi quos enim quis vel, hic
-          velit magnam eum, dignissimos ratione optio doloremque? Veritatis,
-          illum!
+          Formado em Design Gráfico em 2016 e atualmente cursando pós-graduação
+          em desenvolvimento front-end. Sou nascido e resido em São Paulo, onde
+          por seis anos trabalhei como designer e hoje aplico esse conhecimento
+          adquirido em meus trabalhos como desenvolvedor front-end.
         </p>
-        <h1 class="text-scooter-500 font-bold text-xl sm:text-3xl mt-8">
+        <h1 class="text-scooter-500 font-bold text-xl sm:text-3xl mt-10">
           CONTATO
         </h1>
         <div
           class="border border-scooter-400 p-5 mb-3 bg-scooter-50 rounded-lg font-light">
           <p class="text-lg sm:text-xl">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium
-            quam, modi facere quae placeat natus quibusdam dolorum assumenda
-            recusandae tenetur fugit odio at similique adipisci alias iste
-            numquam dignissimos animi!
+            Abaixo constam meu GitHub, onde você vai encontrar meus trabalhos e
+            meus materiais de estudo, meu linkedin e um currículo em PDF com os
+            meus dados para você entrar em contato:
           </p>
           <!--LINKS-->
           <div
@@ -66,24 +63,29 @@
               target="_blank"
               class="bg-scooter-500 font-semibold text-white text-xl text-center px-6 py-1 rounded-xl hover:bg-scooter-600 transition-all"
               ><img
-                src="../assets/git-logo.png"
+                src="../assets/contato/git-logo.png"
                 alt="GitHub Logo"
                 class="inline w-7 mr-2" />Github</a
             >
             <a
-              href="#"
+              href="https://www.linkedin.com/in/dennerrubio/"
+              target="_blank"
               class="bg-scooter-500 font-semibold text-white text-xl text-center px-6 py-1 rounded-xl hover:bg-scooter-600 transition-all"
               ><img
-                src="../assets/in-logo.png"
+                src="../assets/contato/in-logo.png"
                 alt="Linkedin Logo"
                 class="inline w-7 mr-2" />Linkedin</a
             >
             <a
-              href="../assets/cv-pdf.pdf"
+              href="../assets/contato/cv-pdf.pdf"
               target="_blank"
-              class="bg-[#FE3535] font-semibold text-white text-xl text-center px-6 py-1 rounded-xl hover:bg-[#EC1818] transition-all"
+              class="relative bg-[#FE3535] font-semibold text-white text-xl text-center px-6 py-1 rounded-xl hover:bg-[#EC1818] transition-all"
+              ><span
+                class="absolute h-3 w-3 bg-scooter-500 rounded-full right-0 top-0"></span
+              ><span
+                class="absolute animate-ping h-3 w-3 bg-scooter-400 rounded-full right-0 top-0"></span
               ><img
-                src="../assets/pdf-logo.png"
+                src="../assets/contato/pdf-logo.png"
                 alt="PDF Logo"
                 class="inline w-7 mr-1" />Currículo</a
             >
@@ -94,37 +96,57 @@
     <!--ART1-->
     <section class="bg-stone-900">
       <article class="max-w-lg mx-auto">
-        <div class="pt-3 px-2">
+        <div class="pt-8 px-2">
           <img
             id="player2"
             class="h-48 float-right"
-            src="../assets/PLAYER2-IDLE.png"
+            src="../assets/art1/PLAYER2-IDLE.png"
             alt="Boxeador" />
         </div>
         <div class="px-2">
           <img
             id="player1"
             class="h-48"
-            src="../assets/PLAYER1-IDLE.png"
+            src="../assets/art1/PLAYER1-IDLE.png"
             alt="Boxeador" />
         </div>
-        <div class="flex justify-center py-3">
+        <div class="flex justify-center pt-3 pb-8">
           <button id="botao1">
             <img
               id="botaoimg1"
               class="w-36"
-              src="../assets/BOTAO1-NORMAL.png"
+              src="../assets/art1/BOTAO1-NORMAL.png"
               alt="Botão" />
           </button>
         </div>
       </article>
     </section>
     <!--TECH-->
-    <section class="flex justify-center px-3 py-8 sm:py-24 bg-stone-200">
+    <section
+      id="exp"
+      class="flex justify-center px-3 py-8 sm:py-24 bg-stone-200">
       <article class="container">
-        <h1 class="text-scooter-500 font-bold text-2xl sm:text-3xl" id="exp">
+        <h1 class="text-scooter-500 font-bold text-2xl sm:text-3xl">
           EXPERIÊNCIA
         </h1>
+        <h2
+          class="text-scooter-500 font-bold text-xl sm:text-2xl mt-5"
+          id="exp">
+          CONHECIMENTOS EM TECNOLOGIA
+        </h2>
+        <p class="text-lg sm:text-xl">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, ab
+          ipsum, impedit totam, sequi deserunt asperiores qui rerum amet eum
+          quidem dicta facere consequatur vitae dolorem illum velit natus
+          suscipit porro id officiis incidunt? Illo modi quos enim quis vel, hic
+          velit magnam eum, dignissimos ratione optio doloremque? Veritatis,
+          illum!
+        </p>
+        <h2
+          class="text-scooter-500 font-bold text-xl sm:text-2xl mt-10"
+          id="exp">
+          CONHECIMENTOS DIVERSOS
+        </h2>
         <p class="text-lg sm:text-xl">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, ab
           ipsum, impedit totam, sequi deserunt asperiores qui rerum amet eum
