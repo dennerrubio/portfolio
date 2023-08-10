@@ -17,9 +17,14 @@ module.exports = {
           '0% , 100%': { transform: 'translateY(15px)' },
           '50%': { transform: 'translateY(0px)' },
         },
+        balancar: {
+          '0% , 100%': { transform: 'rotate(-4deg)' },
+          '50%': { transform: 'rotate(4deg)' },
+        },
       },
       animation: {
         'flutuar': 'flutuar 3s ease-in-out infinite',
+        'balancar': 'balancar 3s ease-in-out infinite',
       },
       colors: {
         scooter: {
