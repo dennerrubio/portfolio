@@ -17,6 +17,10 @@ module.exports = {
           '0% , 100%': { transform: 'translateY(15px)' },
           '50%': { transform: 'translateY(0px)' },
         },
+        flutuar2: {
+          '0% , 100%': { transform: 'translateY(10px)' },
+          '50%': { transform: 'translateY(0px)' },
+        },
         balancar: {
           '0% , 100%': { transform: 'rotate(-4deg)' },
           '50%': { transform: 'rotate(4deg)' },
@@ -24,6 +28,7 @@ module.exports = {
       },
       animation: {
         'flutuar': 'flutuar 3s ease-in-out infinite',
+        'flutuar2': 'flutuar2 4s ease-in-out infinite',
         'balancar': 'balancar 3s ease-in-out infinite',
       },
       colors: {

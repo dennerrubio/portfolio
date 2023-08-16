@@ -49,7 +49,7 @@
           CONTATO
         </h1>
         <div
-          class="border border-scooter-400 p-5 mb-3 bg-scooter-50 rounded-lg font-light">
+          class="border border-scooter-400 p-5 mb-3 bg-scooter-50 rounded-md font-light">
           <p class="text-lg sm:text-xl">
             Abaixo constam meu GitHub, onde você vai encontrar meus trabalhos e
             meus materiais de estudo, meu linkedin e um currículo em PDF com os
@@ -61,7 +61,7 @@
             <a
               href="https://github.com/dennerrubio"
               target="_blank"
-              class="bg-scooter-500 font-semibold text-white text-xl text-center px-6 py-1 rounded-xl hover:bg-scooter-600 transition-all"
+              class="bg-scooter-500 font-semibold text-white text-xl text-center px-6 py-1 rounded-md hover:bg-scooter-600 transition-all"
               ><img
                 src="../assets/contato/git-logo.png"
                 alt="GitHub Logo"
@@ -70,7 +70,7 @@
             <a
               href="https://www.linkedin.com/in/dennerrubio/"
               target="_blank"
-              class="bg-scooter-500 font-semibold text-white text-xl text-center px-6 py-1 rounded-xl hover:bg-scooter-600 transition-all"
+              class="bg-scooter-500 font-semibold text-white text-xl text-center px-6 py-1 rounded-md hover:bg-scooter-600 transition-all"
               ><img
                 src="../assets/contato/in-logo.png"
                 alt="Linkedin Logo"
@@ -79,7 +79,7 @@
             <a
               href="../assets/contato/cv-pdf.pdf"
               target="_blank"
-              class="relative bg-[#FE3535] font-semibold text-white text-xl text-center px-6 py-1 rounded-xl hover:bg-[#EC1818] transition-all"
+              class="relative bg-[#FE3535] font-semibold text-white text-xl text-center px-6 py-1 rounded-md hover:bg-[#EC1818] transition-all"
               ><span
                 class="absolute h-3 w-3 bg-scooter-500 rounded-full right-0 top-0"></span
               ><span
@@ -234,26 +234,140 @@
     <section
       id="portfolio"
       class="flex justify-center px-3 py-8 sm:py-24 bg-stone-200">
-      <div class="container grid grid-cols-1 sm:grid-cols-2 bg-red-400 gap-6">
-        <div class="h-48 rounded-lg overflow-auto flex flex-col align-bottom">
-          <a
-            class="bg-[url('../assets/port/flexo-thumb.png')] bg-cover bg-center w-full h-full grid grid-rows-3"
-            href="#"
-            ><span></span><span></span>
-            <p class="bg-stone-900/50 text-stone-200 p-3">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. In,
-              incidunt!
-            </p></a
-          >
-        </div>
-        <div class="bg-blue-500 h-48 rounded-lg">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam,
-          perferendis.
-        </div>
-        <div class="bg-orange-500 h-28 rounded-lg">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam,
-          perferendis.
-        </div>
+      <div
+        class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 bg-[url('../assets/header/BG-FUNDO.png')] bg-fixed rounded-lg gap-6 gap-y-12 py-8 px-2">
+        <!--CARD1-->
+        <article
+          class="relative mx-auto flex w-[280px] flex-col rounded-md bg-stone-200 bg-clip-border text-stone-900 shadow-md transition-all">
+          <div
+            class="relative mx-4 mt-4 h-40 overflow-hidden rounded-md bg-stone-900 bg-clip-border text-white shadow-lg shadow-stone-600/50 animate-flutuar2 transition-all bg-[url('../assets/port/flexo-thumb.png')] bg-cover bg-center"></div>
+          <div class="p-6">
+            <h5
+              class="mb-2 block text-xl font-semibold leading-snug tracking-normal text-stone-900 antialiased">
+              Flexography Tools
+            </h5>
+            <p class="block text-sm font-light antialiased text-stone-900">
+              Ferramentas diversas para auxiliar a realização de orçamentos de
+              clichês, calculadora e cálculo de cilindro para o ramo de
+              flexográfico.
+            </p>
+          </div>
+          <div class="p-6 pt-0">
+            <a href="https://www.google.com/" target="_blank">
+              <button
+                class="select-none rounded-md bg-scooter-500 hover:bg-scooter-600 py-3 px-10 text-center align-middle text-xs font-bold uppercase text-white transition-all focus:opacity-[0.85] active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50"
+                type="button"
+                data-ripple-light="true">
+                Acessar
+              </button>
+            </a>
+          </div>
+        </article>
+        <!--CARD2-->
+        <article
+          class="relative mx-auto flex w-[280px] flex-col rounded-md bg-stone-200 bg-clip-border text-stone-900 shadow-md transition-all">
+          <div
+            class="relative mx-4 mt-4 h-40 overflow-hidden rounded-md bg-stone-900 bg-clip-border text-white shadow-lg shadow-stone-600/50 animate-flutuar2 transition-all bg-[url('../assets/port/template-thumb.png')] bg-cover bg-center"></div>
+          <div class="p-6">
+            <h5
+              class="mb-2 block text-xl font-semibold leading-snug tracking-normal text-stone-900 antialiased">
+              Em construção
+            </h5>
+            <p class="block text-sm font-light antialiased text-stone-900">
+              Eu ainda não tenho nada para colocar aqui, mas é só questão de
+              tempo até que um projeto legal ocupe esse lugar!
+            </p>
+          </div>
+          <div class="p-6 pt-0">
+            <button
+              class="select-none rounded-md bg-stone-400 hover:bg-stone-500 py-3 px-10 text-center align-middle text-xs font-bold uppercase text-white transition-all focus:opacity-[0.85] active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50"
+              type="button"
+              data-ripple-light="true">
+              Acessar
+            </button>
+          </div>
+        </article>
+        <!--CARD3-->
+        <article
+          class="relative mx-auto flex w-[280px] flex-col rounded-md bg-stone-200 bg-clip-border text-stone-900 shadow-md transition-all">
+          <div
+            class="relative mx-4 mt-4 h-40 overflow-hidden rounded-md bg-stone-900 bg-clip-border text-white shadow-lg shadow-stone-600/50 animate-flutuar2 transition-all bg-[url('../assets/port/template-thumb.png')] bg-cover bg-center"></div>
+          <div class="p-6">
+            <h5
+              class="mb-2 block text-xl font-semibold leading-snug tracking-normal text-stone-900 antialiased">
+              Em construção
+            </h5>
+            <p class="block text-sm font-light antialiased text-stone-900">
+              Eu ainda não tenho nada para colocar aqui, mas é só questão de
+              tempo até que um projeto legal ocupe esse lugar!
+            </p>
+          </div>
+          <div class="p-6 pt-0">
+            <button
+              class="select-none rounded-md bg-stone-400 hover:bg-stone-500 py-3 px-10 text-center align-middle text-xs font-bold uppercase text-white transition-all focus:opacity-[0.85] active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50"
+              type="button"
+              data-ripple-light="true">
+              Acessar
+            </button>
+          </div>
+        </article>
+        <!--CARD4-->
+        <article
+          class="relative mx-auto flex w-[280px] flex-col rounded-md bg-stone-200 bg-clip-border text-stone-900 shadow-md transition-all">
+          <div
+            class="relative mx-4 mt-4 h-40 overflow-hidden rounded-md bg-stone-900 bg-clip-border text-white shadow-lg shadow-stone-600/50 animate-flutuar2 transition-all bg-[url('../assets/port/template-thumb.png')] bg-cover bg-center"></div>
+          <div class="p-6">
+            <h5
+              class="mb-2 block text-xl font-semibold leading-snug tracking-normal text-stone-900 antialiased">
+              Em construção
+            </h5>
+            <p class="block text-sm font-light antialiased text-stone-900">
+              Eu ainda não tenho nada para colocar aqui, mas é só questão de
+              tempo até que um projeto legal ocupe esse lugar!
+            </p>
+          </div>
+          <div class="p-6 pt-0">
+            <button
+              class="select-none rounded-md bg-stone-400 hover:bg-stone-500 py-3 px-10 text-center align-middle text-xs font-bold uppercase text-white transition-all focus:opacity-[0.85] active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50"
+              type="button"
+              data-ripple-light="true">
+              Acessar
+            </button>
+          </div>
+        </article>
+        <!--CARD5-->
+        <article
+          class="relative mx-auto flex w-[280px] flex-col rounded-md bg-stone-200 bg-clip-border text-stone-900 shadow-md transition-all">
+          <div
+            class="relative mx-4 mt-4 h-40 overflow-hidden rounded-md bg-stone-900 bg-clip-border text-white shadow-lg shadow-stone-600/50 animate-flutuar2 transition-all bg-[url('../assets/port/template-thumb.png')] bg-cover bg-center"></div>
+          <div class="p-6">
+            <h5
+              class="mb-2 block text-xl font-semibold leading-snug tracking-normal text-stone-900 antialiased">
+              Em construção
+            </h5>
+            <p class="block text-sm font-light antialiased text-stone-900">
+              Eu ainda não tenho nada para colocar aqui, mas é só questão de
+              tempo até que um projeto legal ocupe esse lugar!
+            </p>
+          </div>
+          <div class="p-6 pt-0">
+            <button
+              class="select-none rounded-md bg-stone-400 hover:bg-stone-500 py-3 px-10 text-center align-middle text-xs font-bold uppercase text-white transition-all focus:opacity-[0.85] active:opacity-[0.85] disabled:pointer-events-none disabled:opacity-50"
+              type="button"
+              data-ripple-light="true">
+              Acessar
+            </button>
+          </div>
+        </article>
+        <!--PIXELART-CARD-->
+        <article
+          class="relative mx-auto flex w-[280px] flex-col rounded-md bg-stone-200 bg-clip-border text-stone-900 shadow-md transition-all">
+          <div
+            class="relative mx-4 mt-4 h-40 overflow-hidden rounded-md bg-stone-900 bg-clip-border text-white shadow-lg shadow-stone-600/50 transition-all bg-[url('../assets/port/error-thumb.gif')] bg-cover bg-center"></div>
+          <div class="p-5">
+            <img src="../assets/port/error-description.gif" alt="" srcset="">
+          </div>
+        </article>
       </div>
     </section>
     <!--FOOTER-->
