@@ -48,6 +48,7 @@ module.exports = {
       },
       fontFamily: {
         notosans: ["Noto Sans", "sans-serif"],
+        pixel: ["Handjet", "sans-serif"],
       },
     },
   },
