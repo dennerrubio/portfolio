@@ -897,6 +897,10 @@ video {
   background-image: url('../assets/port/template-thumb.png');
 }
 
+.bg-\[url\(\'\.\.\/assets\/port\/flexo-thumbail\.png\'\)\]{
+  background-image: url('../assets/port/flexo-thumbail.png');
+}
+
 .bg-cover{
   background-size: cover;
 }
