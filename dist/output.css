@@ -889,16 +889,12 @@ video {
   background-image: url('../assets/port/error-thumb.gif');
 }
 
-.bg-\[url\(\'\.\.\/assets\/port\/flexo-thumb\.png\'\)\]{
-  background-image: url('../assets/port/flexo-thumb.png');
+.bg-\[url\(\'\.\.\/assets\/port\/flexo-thumbail\.png\'\)\]{
+  background-image: url('../assets/port/flexo-thumbail.png');
 }
 
 .bg-\[url\(\'\.\.\/assets\/port\/template-thumb\.png\'\)\]{
   background-image: url('../assets/port/template-thumb.png');
-}
-
-.bg-\[url\(\'\.\.\/assets\/port\/flexo-thumbail\.png\'\)\]{
-  background-image: url('../assets/port/flexo-thumbail.png');
 }
 
 .bg-cover{

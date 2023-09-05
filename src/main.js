@@ -16,7 +16,7 @@ botao1.addEventListener("click", (e) => {
   botaoimg1.src = "../assets/art1/BOTAO1-CLICK.png";
   const timer = setInterval(function () {
     player1.src = "../assets/art1/PLAYER1-IDLE.png";
-    player2.src = "../assets/art1/PLAYER2-IDLE.png";
+    player2.src = "../assets/art1/PLAYER2-IDLE.gif";
     botaoimg1.src = "../assets/art1/BOTAO1-NORMAL.png";
     document.querySelector("#botao1").disabled = false;
     clearInterval(timer);
@@ -30,7 +30,7 @@ botao2.addEventListener("click", (e) => {
   juri.src = "../assets/art2/JURI-ACTION.gif";
   botaoimg2.src = "../assets/art2/BOTAO2-CLICK.png";
   const timer = setInterval(function () {
-    guy.src = "../assets/art2/GUY-IDLE.png";
+    guy.src = "../assets/art2/GUY-IDLE.gif";
     juri.src = "../assets/art2/JURI-IDLE.gif";
     botaoimg2.src = "../assets/art2/BOTAO2-NORMAL.png";
     document.querySelector("#botao1").disabled = false;
